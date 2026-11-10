@@ -1,0 +1,14 @@
+# Optional reproducible environment for another computer.
+# Existing environments can be selected with start.ps1 -CondaEnv <name>.
+name: frame-photo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=1.26,<2
+  - pillow>=10.2,<12
+  - pip
+  - pip:
+      - torch>=2.3
+      - transformers==4.51.3
+      - rawpy==0.24.0

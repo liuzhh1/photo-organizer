@@ -1,0 +1,9 @@
+# Installed into .vendor, using the existing Conda interpreter.
+# Reuses the existing PyTorch/CUDA installation; does not replace it.
+transformers==4.51.3
+numpy>=1.26,<2
+rawpy==0.24.0
+sentencepiece==0.2.1
+tokenizers==0.21.4
+huggingface-hub==0.30.2
+protobuf>=4,<6
